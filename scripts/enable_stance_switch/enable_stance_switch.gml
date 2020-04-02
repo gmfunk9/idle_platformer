@@ -1,6 +1,7 @@
+/// @param stanceSwitch
 ///enable_stance_switch(movement)
 
-var stanceSwitch=argument0;
+var stanceSwitch = argument0;
 
 if stanceSwitch != movement  
 {
@@ -17,6 +18,9 @@ if stanceSwitch != movement
         case MOVE: show_debug_message("Switching to IDLE: " + string(stanceSwitch));
                     break;
         case JUMP: show_debug_message("Switching to IDLE: " + string(stanceSwitch));
+                    break;
+        case MINE: show_debug_message("Switching to MINE: " + string(stanceSwitch));
+                    // action_input = false;
                     break;
         default: break;
         

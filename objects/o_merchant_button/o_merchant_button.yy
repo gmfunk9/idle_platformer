@@ -15,23 +15,13 @@
             "m_owner": "e061d833-4852-4c5d-96b0-4ca4a1d72b90"
         },
         {
-            "id": "5baa7b5f-a083-460c-86fd-1d35fec4d9cc",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
-            "m_owner": "e061d833-4852-4c5d-96b0-4ca4a1d72b90"
-        },
-        {
-            "id": "072b2fa0-62ca-48bf-9def-c74e6a8724b8",
+            "id": "97ddf4f1-109b-4547-a2e9-d03a07e68ebf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 8,
+            "eventtype": 2,
             "m_owner": "e061d833-4852-4c5d-96b0-4ca4a1d72b90"
         },
         {
@@ -45,13 +35,13 @@
             "m_owner": "e061d833-4852-4c5d-96b0-4ca4a1d72b90"
         },
         {
-            "id": "97ddf4f1-109b-4547-a2e9-d03a07e68ebf",
+            "id": "5baa7b5f-a083-460c-86fd-1d35fec4d9cc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
+            "enumb": 2,
+            "eventtype": 3,
             "m_owner": "e061d833-4852-4c5d-96b0-4ca4a1d72b90"
         },
         {
@@ -62,6 +52,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 10,
             "eventtype": 7,
+            "m_owner": "e061d833-4852-4c5d-96b0-4ca4a1d72b90"
+        },
+        {
+            "id": "072b2fa0-62ca-48bf-9def-c74e6a8724b8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "e061d833-4852-4c5d-96b0-4ca4a1d72b90"
         }
     ],

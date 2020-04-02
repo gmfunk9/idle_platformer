@@ -7,7 +7,8 @@
         "dd3a37c7-beff-4d40-bd7d-7514c6e40d56",
         "52aac640-96db-455e-a7c4-c02cef67a632",
         "7857a228-bd1b-47b1-86f6-a422a77786b3",
-        "93a6a2a4-be4a-4904-8bd5-396ac8be3f19"
+        "93a6a2a4-be4a-4904-8bd5-396ac8be3f19",
+        "2c32bf6c-7730-5c7b-7eb5-4e67d498c567"
     ],
     "filterType": "GMObject",
     "folderName": "Materials",

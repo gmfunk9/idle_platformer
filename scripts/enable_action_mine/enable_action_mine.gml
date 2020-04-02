@@ -3,31 +3,35 @@
 var action_input = argument0;
 
 /// @description enable_action_mine
+/// @param action_input
 if (place_meeting(x,y,o_material)) 
 {
 	var o_mat = instance_place(x,y,o_material);	
 	//show_debug_message("o_mat: " + string(o_mat));
 
-	if ( action_input || device_mouse_check_button(0,mb_left) )
+	if ( action_input || device_mouse_check_button(0,mb_left) || movement == MINE )
     && !( device_mouse_check_button(1,mb_left) )
 	{
         if (o_mat.has_material)
         {
-			
-			switch(o_mat.material)
+        	enable_stance_switch(MINE);
+			if (stance_timer == 0)
 			{
-				case "iron":
-		            o_mat_controller.iron += mining_speed / 60;
-		            o_mat.iron -= mining_speed / 60;
-					break;
-				case "copper":
-		            o_mat_controller.copper += mining_speed * .2 / 60;
-		            o_mat.copper -= mining_speed * .2 / 60;
-					break;		
-				case "gold":			
-		            o_mat_controller.gold += mining_speed * .2 / 60;
-		            o_mat.gold -= mining_speed * .2 / 60;
-					break;
+				switch(o_mat.material)
+				{
+					case "iron":
+			            o_mat_controller.iron += mining_speed;// / 60;
+			            o_mat.iron -= mining_speed;// / 60;
+						break;
+					case "copper":
+			            o_mat_controller.copper += mining_speed;// * .2 / 60;
+			            o_mat.copper -= mining_speed;// * .2 / 60;
+						break;		
+					case "gold":			
+			            o_mat_controller.gold += mining_speed;// * .2 / 60;
+			            o_mat.gold -= mining_speed;// * .2 / 60;
+						break;
+				}
 			}
 		}	
 	}		

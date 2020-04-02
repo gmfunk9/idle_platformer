@@ -3,7 +3,7 @@
 
 
 //if distance_to_object(o_player) < 12 
-if ( keyboard_check(vk_space) || device_mouse_check_button(1,mb_left) )
+if ( keyboard_check(ord("E")) || device_mouse_check_button(1,mb_left) )
 && ( distance_to_object(o_player) < 12 )
 {
 	active = true;	

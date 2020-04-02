@@ -7,12 +7,11 @@
 #macro ATTACK2 7
 #macro ATTACK3 8
 #macro ATTACK_AIR 9 
-#macro ATTACK_SPIN 10
-#macro ATTACK_MOVE 11
-#macro ATTACK_UP 12
-#macro GUARD 13
-#macro SLIDE 14
-
+#macro ATTACK_MOVE 10
+#macro GUARD 11
+#macro SLIDE 12
+#macro MINE 13
+#macro WANDER 14
 
 
 

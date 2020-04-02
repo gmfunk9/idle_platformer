@@ -1,5 +1,4 @@
-/// @description left_input
-// You can write your code in this editor
+/// @description left_input														// > disable right_input > enable left_input > set reset in 1 second.
 right_input = false;
 left_input = true;
-alarm[11] = 60;
+alarm[11] = 60;//1second

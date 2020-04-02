@@ -80,7 +80,7 @@ offset_y = (panel_height - panel_border_y) * .5;
 
 fn_gui_create_button(x,y,P_LEFT_X,P_TOP_Y,"BUY: ","pickaxe",fn_update_player, 1);	
 
-fn_gui_create_button(x,y,P_CENTER_X,P_TOP_Y,"SELL: ",noone,fn_update_material,"gold",1,-500);	
+fn_gui_create_button(x,y,P_CENTER_X,P_TOP_Y,"SELL: ","iron",fn_update_material,"gold",1,-500);	
 
 /*
 inst = instance_create_depth(x,y,-2,o_merchant_button);

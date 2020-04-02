@@ -16,6 +16,10 @@ if (action_input)
 					break;
 
 		default: action_attack_1();
+	 			 show_debug_message("ATK_1");
+				 movement = ATTACK1;
+				 image_index = 0;
+				 stance_timer = 25;
 				 break;
 	}
 }

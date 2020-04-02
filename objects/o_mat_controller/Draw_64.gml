@@ -28,10 +28,10 @@ draw_set_alpha(0.3);
 //var xp = camera_get_view_x(view_camera[0]);
 draw_set_color(c_red);
 draw_text(200,220,"Buy Price   : " + string(5 * (o_player.mining_speed * 10)));
-draw_text(200,240,"Mining Speed: " + string(o_player.mining_speed));
+draw_text(200,240,"Mining Speed: " + string(o_farmer.mining_speed));
 
 
 draw_set_color(c_orange);
-draw_text(150,150,string(gold >= 5 * (o_player.mining_speed * 10)));
+draw_text(150,150,string(gold >= 5 * (o_farmer.mining_speed * 10)));
 
 draw_set_color(c_red);

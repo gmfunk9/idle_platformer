@@ -79,6 +79,11 @@ DOWN = 3;
 
 #region Sprites
 
+sprite[RIGHT, IDLE]  = HeroKnight_idle;
+sprite[UP, IDLE]     = HeroKnight_idle;
+sprite[LEFT, IDLE]   = HeroKnight_idle;
+sprite[DOWN, IDLE]   = HeroKnight_idle;
+
 sprite[RIGHT, MOVE]  = HeroKnight_run;
 sprite[UP, MOVE]     = HeroKnight_run;
 sprite[LEFT, MOVE]   = HeroKnight_run;
@@ -104,34 +109,32 @@ sprite[UP, ATTACK3]     = HeroKnight_attack3;
 sprite[LEFT, ATTACK3]   = HeroKnight_attack3;
 sprite[DOWN, ATTACK3]  = HeroKnight_attack3;
 
-sprite[RIGHT, ATTACK_AIR]  = HeroKnight;
-sprite[UP, ATTACK_AIR]     = HeroKnight;
-sprite[LEFT, ATTACK_AIR]   = HeroKnight;
-sprite[DOWN, ATTACK_AIR]  = HeroKnight;
-
 sprite[RIGHT, ATTACK_MOVE]  = HeroKnight;
 sprite[UP, ATTACK_MOVE]     = HeroKnight;
 sprite[LEFT, ATTACK_MOVE]   = HeroKnight;
 sprite[DOWN, ATTACK_MOVE]   = HeroKnight;
 
-sprite[RIGHT, IDLE]  = HeroKnight_idle;
-sprite[UP, IDLE]     = HeroKnight_idle;
-sprite[LEFT, IDLE]   = HeroKnight_idle;
-sprite[DOWN, IDLE]   = HeroKnight_idle;
+// sprite[RIGHT, ATTACK_AIR]  = HeroKnight;
+// sprite[UP, ATTACK_AIR]     = HeroKnight;
+// sprite[LEFT, ATTACK_AIR]   = HeroKnight;
+// sprite[DOWN, ATTACK_AIR]  = HeroKnight;
 
-sprite[RIGHT, DASH]  = HeroKnight_roll;
-sprite[UP, DASH]     = HeroKnight_roll;
-sprite[LEFT, DASH]   = HeroKnight_roll;
-sprite[DOWN, DASH]   = HeroKnight_roll;
 
-sprite[RIGHT, HURT]  = HeroKnight_hurt;
-sprite[UP, HURT]     = HeroKnight_hurt;
-sprite[LEFT, HURT]   = HeroKnight_hurt;
-sprite[DOWN, HURT]   = HeroKnight_hurt;
 
-sprite[RIGHT, GUARD]  = HeroKnight_block;
-sprite[UP, GUARD]     = HeroKnight_block;
-sprite[LEFT, GUARD]   = HeroKnight_block;
-sprite[DOWN, GUARD]   = HeroKnight_block;
+
+// sprite[RIGHT, DASH]  = HeroKnight_roll;
+// sprite[UP, DASH]     = HeroKnight_roll;
+// sprite[LEFT, DASH]   = HeroKnight_roll;
+// sprite[DOWN, DASH]   = HeroKnight_roll;
+
+// sprite[RIGHT, HURT]  = HeroKnight_hurt;
+// sprite[UP, HURT]     = HeroKnight_hurt;
+// sprite[LEFT, HURT]   = HeroKnight_hurt;
+// sprite[DOWN, HURT]   = HeroKnight_hurt;
+
+// sprite[RIGHT, GUARD]  = HeroKnight_block;
+// sprite[UP, GUARD]     = HeroKnight_block;
+// sprite[LEFT, GUARD]   = HeroKnight_block;
+// sprite[DOWN, GUARD]   = HeroKnight_block;
 
 #endregion

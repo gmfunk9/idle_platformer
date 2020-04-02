@@ -1,9 +1,10 @@
-/// @description fn_gui_create_button( x, y, _x, _y, text, function*, function_arg0*, function_arg1*, function_arg2*, function_arg3*, function_arg4*, function_arg5* )
+/// @description fn_gui_create_button( x, y, _x, _y, text, icon, function*, function_arg0*, function_arg1*, function_arg2*, function_arg3*, function_arg4*, function_arg5* )
 /// @param  x
 /// @param  y
 /// @param  width
 /// @param  height
 /// @param  text
+/// @param  icon
 /// @param  function*
 /// @param  function_arg0*
 /// @param  function_arg1*

@@ -1,14 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
-show_debug_overlay(1);
+//show_debug_overlay(1);
 draw_set_color(c_black);
 draw_text(x-32,y+16,string(fps_real) + ":" + string(fps));
 
-_var = motion_predict(self,240);
-draw_text(x,y-200,_var);
+// _var = motion_predict(self,240); //needs to be set to hsp[0]
+// draw_text(x,y-200,"motion_predict: " + string(_var));
 
-
+draw_text(x,y-160, "stance_timer: " + string(stance_timer));
 switch (movement)
 {
 	case IDLE: draw_text(x,y-128,"IDLE: " + string(movement));

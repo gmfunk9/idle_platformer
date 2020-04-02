@@ -40,6 +40,15 @@ switch(icon)
 					  32,
 					  32);
 		break;
+
+	case "iron":
+		draw_sprite_stretched(s_ore_iron,
+					  1,
+					  _x + button_width - 32 - 16,
+					  _y + button_height / 2 - 16,
+					  32,
+					  32);
+		break;
 		
 	default:
 		draw_sprite_stretched(s_player_idle,

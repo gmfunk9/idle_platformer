@@ -50,7 +50,7 @@ if (place_meeting(x+hspd, y, collision_object)) {
         hsp[1] = -(hsp[1])*bounce;
 		collide = true;
 
-		// show_debug_message("fires when bumping into walls")
+		show_debug_message("collide: " + string(collide))
         // Stop bounce at low values
         if (abs(hsp[1]) < 1) hsp[1] = 0;
     } else {
@@ -94,11 +94,12 @@ else
 	}
 
     hsp[1] = approach(hsp[1], 0, fric);
-
-	if hspd = 0
-		enable_stance_switch(IDLE);
-	else
-		enable_stance_switch(MOVE);
+	
+	if stance_timer == 0
+		if hspd == 0 
+			enable_stance_switch(IDLE);
+		else
+			enable_stance_switch(MOVE);
 }
 
 // // Air resistance

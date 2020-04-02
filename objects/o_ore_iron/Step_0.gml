@@ -3,3 +3,7 @@
 event_inherited();
 
 //material = iron;
+if iron < 0 
+{
+    instance_destroy();
+}

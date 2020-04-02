@@ -21,6 +21,7 @@ vsp[1] = 0;
 
 movement = IDLE;
 stance_timer = 0;
+state_timer = 0;
 run_speed = argument0;
 grav = argument1; // Gravity amount (positive is down).
 fric = argument2; // Friction amount (Only applies on ground for Platform Games).

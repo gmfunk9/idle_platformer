@@ -6,16 +6,16 @@ draw_sprite_stretched(s_menu_panel,1,panel_top_left_x,panel_top_left_y,panel_wid
 
 
 
-if panel_width > panel_max_width || panel_width == panel_max_width
-{
-	draw_set_font(font_big);
+// if panel_width > panel_max_width || panel_width == panel_max_width
+// {
+// 	draw_set_font(font_big);
 
-}
-else
-{
-	draw_set_font(font_small)
+// }
+// else
+// {
+// 	draw_set_font(font_small)
 
-}
+// }
 
 //draw_sprite_stretched(s_menu_panel,
 //					  1,

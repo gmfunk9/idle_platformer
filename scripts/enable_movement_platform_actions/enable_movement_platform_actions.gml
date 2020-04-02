@@ -1,4 +1,4 @@
-/// @description enable_movement_platform_actions(acceleration, run_speed, jump_height, right_input, left_input, jump_input, jump_release_input)
+/// @description enable_movement_platform_actions(acceleration, run_speed, jump_height, right_input, left_input, jump_input, jump_release_input, action_input)
 /// @param acceleration
 /// @param  run_speed
 /// @param  jump_height
@@ -28,6 +28,8 @@ var jump_input = argument[5]; // The jump input
 var jump_release_input = argument[6]; // The jump release input (This is used to allow controlled jump height)
 var action_input = argument[7];
 
+if stance_timer>0
+    stance_timer--; 
 
 
 

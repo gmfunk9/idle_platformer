@@ -1,15 +1,4 @@
 /// @description reset
-// You can write your code in this editor
-
-
-
-
-
-
-
-
-
-
 jump_input = false;
 left_input = false;
 right_input = false;

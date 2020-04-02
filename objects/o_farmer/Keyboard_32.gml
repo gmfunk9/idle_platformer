@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-// jump_input = true;
+
+//left_input = true;
+//window_set_position(960,0);
